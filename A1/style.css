@@ -19,9 +19,9 @@ div {
   z-index: 100;
 }
 h1 {
-  text-align: center;
+  text-align: center;c
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 3.5em;
   margin-bottom: 30px;
   background: url('images/headbg.png') top left repeat;
   padding: 10px 0;
@@ -35,20 +35,24 @@ h1 {
 }
 .website {
   border-right: 5px solid blue;
+  background: url(images/web.png) top right no-repeat;
 }
 .book {
+  background: url(images/llibres.png) top right no-repeat;
   border-right: 5px solid red;
 }
 .article {
+  background: url(images/articles.png) top right no-repeat;
   border-right: 5px solid green;
 }
 #footer {
+  color: #fff;
   font-size: 0.5em;
-  border-top: 1px solid #000;
+  border-top: 1px solid #ffffff;
   margin-top: 20px;
 }
 #footer a {
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
 }
 #footer a:hover{
