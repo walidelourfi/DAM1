@@ -1,0 +1,27 @@
+body{
+  background: #fff url('images/gradbg.jpg') top left repeat-x;
+  color: #000;
+  margin: 0;
+  padding:0;
+  border: 0;
+  font-family: Verdana, Arial, sans-serif; font-size: 1em;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  margin-bottom: 30px;
+  background: url('images/headbg.png') top left repeat;
+  padding: 10px 0;
+}
+h2{
+  text-align: center;
+  color: #e7b62d;
+}
+
+.article {
+  font-size: medium;
+  margin-bottom: 3.5em;
+}
