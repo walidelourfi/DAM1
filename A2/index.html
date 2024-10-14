@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Compartint projectes, codis i coneixements sobre tecnologia, programació i més">
+    <meta name="author" content="Walid El Ourfi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog de Tecnologia i Programació</title>
+</head>
+<body>
+    <h1>Benvingut al meu Blog de Tecnologia</h1>
+    <div class="Paragraf1">
+        <p id="Special"> 
+            Benvingut al meu blog personal sobre tecnologia i programació! 
+            Aquest espai està dedicat a compartir el meu aprenentatge i experiències en el 
+            món del desenvolupament de programari, la gestió de projectes tecnològics i les eines més 
+            innovadores que estan transformant la nostra manera de treballar.</p>
+        <p>
+            Aquí trobaràs articles sobre diversos llenguatges de programació com Python, 
+            C i JavaScript, així com tutorials pas a pas, projectes personals i reflexions sobre com la 
+            tecnologia ens pot ajudar a automatitzar tasques diàries, millorar l'eficiència en el treball 
+            i fins i tot resoldre problemes globals.
+        </p>
+        <p>
+            Tant si ets un principiant que vol aprendre els fonaments de la programació, com si ja tens 
+            experiència i busques aprofundir en temes avançats, espero que aquest blog sigui un recurs útil per a tu.
+        </p>
+    </div>
+
+    <h2>Últims articles de programació</h2>
+    <div class="Paragraf2">
+        <p>
+            En l'actualitat, la tecnologia i la programació estan jugant un paper fonamental en 
+            la nostra societat, impulsant la innovació en gairebé tots els sectors. 
+        </p>
+        <p>
+            Tal com s’esmenta en un article de <a href="https://medium.com">Medium</a>, "la programació s'ha convertit en una habilitat 
+            imprescindible no només per als desenvolupadors de software, sinó també per a professionals 
+            d'altres sectors que volen automatitzar processos, analitzar grans quantitats de dades o 
+            simplement millorar la seva productivitat".
+        </p>
+        <p>
+            Aquesta afirmació ressalta la importància creixent de la programació com a eina transversal que pot ser utilitzada en camps tan diversos com el màrqueting, la medicina o l’enginyeria.
+        </p>
+        <p>
+            És fascinant veure com, a través de la programació, podem resoldre problemes 
+            complexos de manera eficient i fins i tot accelerar descobriments científics o millorar la qualitat de vida de les persones.
+        </p>
+    </div>
+
+    <h3>Projecte Python: Automatitzant Tasques</h3>
+    <p id="TextPython"> Un exemple de codi Python trobat a internet, utilitzant etiquetes per mostrar correctament el codi dins del text.</p>
+    <div id="codigo">
+        <pre>
+        <code>
+            
+                    print(""" 
+                    $$$$$$$$\                  $$\ $$\   $$\ $$\   $$\     
+                    \__$$  __|                 $$ |$$ | $$  |\__|  $$ |    
+                        $$ | $$$$$$\   $$$$$$\  $$ |$$ |$$  / $$\ $$$$$$\   
+                        $$ |$$  __$$\ $$  __$$\ $$ |$$$$$  /  $$ |\_$$  _|  
+                        $$ |$$ /  $$ |$$ /  $$ |$$ |$$  $$<   $$ |  $$ |    
+                        $$ |$$ |  $$ |$$ |  $$ |$$ |$$ |\$$\  $$ |  $$ |$$\ 
+                        $$ |\$$$$$$  |\$$$$$$  |$$ |$$ | \$$\ $$ |  \$$$$  |
+                        \__| \______/  \______/ \__|\__|  \__|\__|   \____/ 
+
+            ------------------------------------------------------------------
+
+            Usuari: {} 
+
+            ------------------------------------------------------------------
+
+            1. Ordenar Fitxers
+            2. Acortador de links
+            3. Netejar Cache
+            4. Generador de contrasenyes
+            5. La boveda
+            6. Canviar usuari
+            7. Tancar programa
+                """.format(actual_user["username"]))
+
+                    user_choice = readchar.readchar()
+
+                    if user_choice == "1":
+                        if len(actual_user["origin_move_folders"]) == 0 or len(actual_user["destination_move_folders"]) == 0:
+                            
+                            config.clear()
+                            print("               ¡ ERROR !")
+                            print("No tens ninguna carpeta configurada")
+                            sleep(2)
+                        
+                        else:
+                            move_files(actual_user)
+                    
+                    elif user_choice == "2":
+                    
+                        link_shorter()
+                    
+                    elif user_choice == "3":
+                        
+                        cache_cleaner()
+                
+                    elif user_choice == "4":
+
+                        pass
+                        passwd_gen()
+                    
+                    elif user_choice == "5":
+                        
+                        password_trunk(actual_user)
+
+                    elif user_choice == "6":
+
+                        finnish = True
+
+                    elif user_choice == "7":
+                        finnish = True
+                        return True
+
+
+            def main():
+                finnish = False
+                print("Extraent usuaris...")
+                sleep(2)
+                #S'extrauen els usuaris del arxiu config.txt, si aquest no existeix, significa que no existeixen usuaris i es va directament a la creació d'aquests
+                users = config.extract_users()
+                
+                while not finnish:
+                    #Seguidament s'inicia sessió amb l'usuari i contrasenya ja establegudes
+                    actual_user = choose_actual_user(users)
+                    
+                    #Finalment, s'envia al menu on podran triar les diferentes opcions
+                    finnish = menu(actual_user)
+
+            if __name__ == "__main__":
+                main()
+        </code>
+        </pre>
+    </div>
+
+
+</body>
+</html>
