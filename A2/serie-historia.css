@@ -44,6 +44,11 @@ footer > a{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
+.social{
+    margin: 10px;
+    width: 24px;
+    height: auto;
+}
 .ref_twitter_p1 p{
     display: flex;
     align-items: center;
@@ -57,9 +62,4 @@ footer > a{
 #space{
     height: 0.5cm;
     background-color: white;
-}
-#social{
-    margin: 10px;
-    width: 24px;
-    height: auto;
 }
