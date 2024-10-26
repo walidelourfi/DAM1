@@ -1,0 +1,70 @@
+html{
+    background-color: yellow;
+    font-family: serif, sans-serif;
+}
+.main_page{
+    background-color: rgb(216, 216, 216);
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+header{
+    text-align: center;
+    background-color: grey;
+}
+footer{
+    text-align: center;
+    background-color: rgb(185, 2, 185);
+}
+h1{
+    color: rgb(82, 194, 231);
+}
+nav{
+    margin: 0.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+main{
+    margin: 1%;
+}
+h2{
+    display: flex;
+    align-items: center;
+}
+a:hover{
+    color: black;
+}
+footer > a{
+    padding: 1%;
+}
+.main_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.indexes{
+    padding: 1%;
+}
+.social{
+    margin: 10px;
+    width: 24px;
+    height: auto;
+}
+#space{
+    height: 0.5cm;
+    background-color: white;
+}
+.saga_titol{
+    padding: 40px;
+    background: url(img/icono-cine.png) center left no-repeat;
+    list-style-type: none;
+    color: rgb(25, 145, 139);
+}
+#one_piece_photo{
+    display: flex;
+    align-self: center;
+    margin-right: 40px;
+    width: 1000px;
+    height: 500px;
+}

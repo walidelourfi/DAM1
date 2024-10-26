@@ -1,0 +1,65 @@
+html{
+    background-color: yellow;
+    font-family: serif, sans-serif;
+}
+.main_page{
+    background-color: rgb(216, 216, 216);
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+header{
+    text-align: center;
+    background-color: grey;
+}
+a{
+    color: orange;
+}
+footer{
+    text-align: center;
+    background-color: rgb(185, 2, 185);
+}
+h1{
+    color: rgb(82, 194, 231);
+}
+nav{
+    margin: 0.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+a:hover{
+    color: black;
+}
+footer > a{
+    padding: 1%;
+}
+.main_content{
+    margin: 1%;
+}
+.indexes{
+    padding: 1%;
+}
+.ref_twitter_p1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.social{
+    margin: 10px;
+    width: 24px;
+    height: auto;
+}
+.ref_twitter_p1 p{
+    display: flex;
+    align-items: center;
+}
+#img_OnePiece{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#space{
+    height: 0.5cm;
+    background-color: white;
+}

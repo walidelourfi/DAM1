@@ -1,0 +1,80 @@
+html{
+    background-color: yellow;
+    font-family: serif, sans-serif;
+}
+.main_page{
+    background-color: rgb(216, 216, 216);
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+header{
+    text-align: center;
+    background-color: grey;
+}
+main{
+    margin: 20px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(185, 2, 185);
+}
+h1{
+    color: rgb(82, 194, 231);
+}
+nav{
+    margin: 0.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+}
+a{
+    color: orange;
+}
+a:hover{
+    color: black;
+}
+footer > a{
+    padding: 1%;
+}
+.character_photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.character_photo img{
+    height: 200px;
+    width: auto;
+    margin: 10px;
+}
+.character_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: grey;
+}
+.indexes{
+    padding: 1%;
+}
+.social{
+    margin: 10px;
+    width: 24px;
+    height: auto;
+}
+#img_OnePiece{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#space{
+    height: 0.5cm;
+    background-color: white;
+}
