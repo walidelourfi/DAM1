@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rural Rooms, Habitatge a la natura">
+    <meta name="keywords" content="Rural Rooms, Habitatge a la natura">
+    <meta name="author" content="Walid El Ourfi">
+    <link rel="icon" href="img/RRLogo.png">
+    <title>Reserva</title>
+    <link rel="stylesheet" href="style_reserva.css">
+</head>
+<body>
+    <header>
+        <img class="site_logo_header" src="img/RRLogo.png" alt="Site Logo Rural Rooms">
+        <nav>
+            <a class="indexes" href="index.html">Inicio</a>
+            <a class="indexes" href="precios.html">Precios</a>
+            <a class="indexes" href="reserva.html">Reserva</a>
+        </nav>
+    </header>
+
+    <h1>Reserve su habitación en Rural Rooms</h1>
+    
+    <div class="center_form">
+        <form>
+            <ul>
+                <li><label for="Tractament">Tractament:</label></li>
+                <select name="Tractament" id="options" required>
+                    <option value="sr">Sr</option>
+                    <option value="sra">Sra</option>
+                    <option value="srta">Srta</option>
+                </select>
+
+                <li><label for="nom">Nom:</label></li>
+                <input type="text" name="nom" id="nom" value="" required />
+
+                <li><label for="cognoms">Cognoms:</label></li>
+                <input type="text" name="cognoms" id="cognoms" value="" required />
+
+                <li><label for="telefon">Telefon:</label></li>
+                <input type="tel" name="telefon" id="telefon" value="" required />
+
+                <li><label for="email">Correu:</label></li>
+                <input type="email" name="email" id="email" value="" required />
+
+                <li><label for="email2">Confirmacio Correu:</label></li>
+                <input type="email" name="email2" id="email2" value="" required />
+
+                <li><label for="password">Contrasenya:</label></li>
+                <input type="password" name="password" id="password" value="" required />
+
+                <li><label for="habitacio">Tipus d'habitació:</label></li>
+                <select name="habitacio" id="options" required>
+                    <option value="individual">Habitació individual</option>
+                    <option value="doble">Habitació doble</option>
+                    <option value="doble_superior">Habitació doble superior</option>
+                    <option value="triple">Habitació triple</option>
+                </select>
+
+                <li><label for="num_persones">Número de persones de la reserva:</label></li>
+                <input type="number" name="num_persones" id="num_persones" value="" required />
+
+                <li><label for="entrada">Dia d'entrada:</label></li>
+                <input type="date" name="entrada" id="entrada" value="" required />
+
+                <li><label for="sortida">Dia de sortida:</label></li>
+                <input type="date" name="sortida" id="sortida" value="" required />
+
+                <li><label for="peticions">Peticions:</label></li>
+                <textarea name="comments" id="peticions" cols="25" rows="3"></textarea>
+
+                <li><label for="reserva_parking">Reserva de parking (8€/nit):</label></li>
+                <input type="checkbox" name="reserva_parking" id="reserva_parking" value="">
+
+                <li><label for="hora_arribada">Hora d'arribada:</label></li>
+                <input type="time" id="hora_arribada" name="hora_arribada" value="">
+
+                <li><label for="afegir_esmorzar">Afegir esmorzar (5€/dia):</label></li>
+                <input type="checkbox" name="afegir_esmorzar" id="afegir_esmorzar" value="">
+
+                <li class="final_box"><input type="submit" value="Enviar" /></li>
+                <li class="final_box"><input type="reset" value="Reiniciar" /></li>
+            </ul>
+        </form>
+    </div>
+
+    <footer>
+        <div class="margin_footer">
+            <p>
+                Actividad realizada por Walid El Ourfi 
+            </p>
+            <div class="footer_unsplash">
+                <p>
+                    Fotografías de la portada <a href="http://creativecommons.org/licenses/by-sa/4.0/.">Unsplash</a>
+                </p>
+                <img alt="Creative Commons Logo" src="img/creative-commons.png">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

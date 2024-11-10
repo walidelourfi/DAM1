@@ -1,0 +1,55 @@
+html{
+    background-color: green;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+}
+body{
+    margin-bottom: 0;
+}
+footer{
+    margin-top: 0;
+    padding-top: 0;
+    background-color: green;
+}
+.indexes{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+}
+.indexes:hover{
+    color: black;
+}
+.footer_unsplash{
+    display: flex;
+}
+.footer_unsplash img{
+    margin-left: 10px;
+}
+.margin_footer{
+    margin-left: 70px;
+}
+#main_image{
+    width: 120%;
+    position: relative;
+}
+#rr_inside_image{
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    transform: translateX(-50%);
+    font-size: 4em;
+    color: green;
+}
+#slogan__inside_image{
+    position: absolute;
+    top: 400px;
+    left: 17.5%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    color: green;
+}
