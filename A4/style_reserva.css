@@ -26,6 +26,9 @@ h1{
     font-size: 50px;
     justify-content: center;
 }
+fieldset{
+    margin: 20px;
+}
 .center_form{
     margin: 20px;
     background-color: rgb(224, 224, 224);

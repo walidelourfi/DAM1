@@ -25,6 +25,9 @@
     <div class="center_form">
         <form>
             <ul>
+                <fieldset>
+                    <legend>Dades Personals</legend>
+                
                 <li><label for="Tractament">Tractament:</label></li>
                 <select name="Tractament" id="options" required>
                     <option value="sr">Sr</option>
@@ -49,7 +52,10 @@
 
                 <li><label for="password">Contrasenya:</label></li>
                 <input type="password" name="password" id="password" value="" required />
-
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Dades de reserva</legend>
                 <li><label for="habitacio">Tipus d'habitació:</label></li>
                 <select name="habitacio" id="options" required>
                     <option value="individual">Habitació individual</option>
@@ -69,7 +75,10 @@
 
                 <li><label for="peticions">Peticions:</label></li>
                 <textarea name="comments" id="peticions" cols="25" rows="3"></textarea>
-
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Dades extra</legend>
                 <li><label for="reserva_parking">Reserva de parking (8€/nit):</label></li>
                 <input type="checkbox" name="reserva_parking" id="reserva_parking" value="">
 
@@ -81,6 +90,7 @@
 
                 <li class="final_box"><input type="submit" value="Enviar" /></li>
                 <li class="final_box"><input type="reset" value="Reiniciar" /></li>
+                </fieldset>
             </ul>
         </form>
     </div>
