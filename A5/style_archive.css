@@ -1,0 +1,94 @@
+html{
+    background-color: rgb(204, 43, 204);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grrgb(204, 43, 204)een;
+}
+body{
+    background-color: rgb(204, 43, 204);
+}
+footer{
+    margin-top: 0;
+    padding-top: 0;
+    background-color: rgb(204, 43, 204);
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imageTitle{
+    font-size: 1.5em;
+}
+.hiddenText{
+    display: none;
+}
+.indexes{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+}
+.indexes:hover{
+    color: black;
+}
+.footer_unsplash{
+    display: flex;
+}
+.footer_unsplash img{
+    margin-left: 10px;
+}
+.margin_footer{
+    margin-left: 70px;
+}
+.center_divs{
+    margin: 20px;
+}
+.center_divs img:hover{
+    width: 100%;
+    height: auto;
+}
+.rowPhotos1{
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+.rowPhotos1 img{
+    flex-direction: row;
+    align-self: center;
+    margin: 10px;
+    height: 550px;
+    width: auto ;
+}
+.rowPhotos2{
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+.rowPhotos2 img{
+    flex-direction: row;
+    align-self: center;
+    margin: 10px;
+    height: 550px;
+    width: auto ;
+}
+.rowPhotos3{
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+.rowPhotos3 img{
+    flex-direction: row;
+    align-self: center;
+    margin: 10px;
+    height: 500px;
+    width: auto ;
+}
+#site_logo_header{
+    height: 100px;
+    width: auto;
+    margin: 12px;
+}
