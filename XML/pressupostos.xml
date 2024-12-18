@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pressupostos>
+    <pressupost id="1">
+        <placaBase>
+            <nom>Gigabyte B550M K Rev. 1.0</nom>
+            <preu>86</preu>
+        </placaBase>
+
+        <processador>
+            <nom>AMD Ryzen 5 5500 3.6GHz</nom>
+            <preu>189</preu>
+        </processador>
+
+        <memoria>
+            <nom>Kingston FURY Beast DDR4 3200 MHz 16GB 2x8GB CL16</nom>
+            <preu>40</preu>
+        </memoria>
+
+        <discDur>
+            <nom>WD Blue SN580 1TB SSD M.2 PCIe 4.0 NVMe</nom>
+            <preu>65</preu>
+        </discDur>
+
+        <targetaGrafica>
+            <nom>Sapphire PULSE AMD Radeon RX 6600 8GB GDDR6</nom>
+            <preu>300</preu>
+        </targetaGrafica>
+
+        <targetaSo>
+            <nom>Asus Xonar AE</nom>
+            <preu>60</preu>
+        </targetaSo>
+    </pressupost>
+
+    <pressupost id="2">
+        <placaBase>
+            <nom>ASUS PRIME B550M-A/CSM</nom>
+            <preu>100</preu>
+        </placaBase>
+
+        <processador>
+            <nom>AMD Ryzen 7 5800X 3.8GHz</nom>
+            <preu>545</preu>
+        </processador>
+
+        <memoria>
+            <nom>Kingston FURY Beast DDR4 3200 MHz 32GB 2x16GB CL18</nom>
+            <preu>70</preu>
+        </memoria>
+
+        <discDur>
+            <nom>WD Blue SN570 SSD 1TB M.2 NVMe</nom>
+            <preu>65</preu>
+        </discDur>
+
+        <targetaGrafica>
+            <nom>ASUS Dual GeForce RTX 4060 Ti OC Edition 8GB GDDR6 DLSS3</nom>
+            <preu>500</preu>
+        </targetaGrafica>
+
+        <targetaSo>
+            <nom>Asus Strix Soar Tarjeta de Sonido 7.1</nom>
+            <preu>100</preu>
+        </targetaSo>
+    </pressupost>
+</pressupostos>
