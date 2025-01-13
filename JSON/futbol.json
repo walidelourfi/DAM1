@@ -1,0 +1,226 @@
+{
+    "futbol": {
+        "jornada": [
+            {
+                "id": "jornada 1",
+                "partit": [
+                    {
+                        "equip": ["R. Sociedad", "Getafe"],
+                        "resultat": "2-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Valencia", "Málaga"],
+                        "resultat": "1-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Osasuna", "Granada"],
+                        "resultat": "1-2",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Sevilla", "Atlético"],
+                        "resultat": "1-3",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Celta", "Espanyol"],
+                        "resultat": "2-2",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Valladolid", "Athletic"],
+                        "resultat": "1-2",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["FC Barcelona", "Levante"],
+                        "resultat": "7-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["R. Madrid", "Betis"],
+                        "resultat": "2-1",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Rayo", "Elche"],
+                        "resultat": "3-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Almería", "Villarreal"],
+                        "resultat": "2-3",
+                        "estat": "finalitzat"
+                    }
+                ]
+            },
+            {
+                "id": "jornada 2",
+                "partit": [
+                    {
+                        "equip": ["Getafe", "Almería"],
+                        "resultat": "2-2",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Elche", "R. Sociedad"],
+                        "resultat": "1-1",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Villarreal", "Valladolid"],
+                        "resultat": "2-1",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Málaga", "FC Barcelona"],
+                        "resultat": "0-1",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Betis", "Celta"],
+                        "resultat": "1-2",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Athletic", "Osasuna"],
+                        "resultat": "2-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Espanyol", "Valencia"],
+                        "resultat": "3-1",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Atlético", "Rayo"],
+                        "resultat": "5-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Levante", "Sevilla"],
+                        "resultat": "0-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Granada", "R. Madrid"],
+                        "resultat": "0-1",
+                        "estat": "finalitzat"
+                    }
+                ]
+            },
+            {
+                "id": "jornada 3",
+                "partit": [
+                    {
+                        "equip": ["Rayo", "Levante"],
+                        "resultat": "1-2",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Celta", "Granada"],
+                        "resultat": "1-1",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Osasuna", "Villareal"],
+                        "resultat": "0-3",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Espanyol", "Betis"],
+                        "resultat": "0-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Valencia", "FC Barcelona"],
+                        "resultat": "2-3",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Almeria", "Elche"],
+                        "resultat": "2-2",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Valladolid", "Getafe"],
+                        "resultat": "1-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["R. Madrid", "Athletic"],
+                        "resultat": "3-1",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["R. Sociedad", "Atlético"],
+                        "resultat": "1-2",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Sevilla", "Málaga"],
+                        "resultat": "2-2",
+                        "estat": "finalitzat"
+                    }
+                ]
+            },
+            {
+                "id": "jornada 4",
+                "partit": [
+                    {
+                        "equip": ["Atlético", "Almeria"],
+                        "resultat": "4-2",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["FC Barcelona", "Sevilla"],
+                        "resultat": "3-2",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Granada", "Espanyol"],
+                        "resultat": "0-1",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Málaga", "Rayo"],
+                        "resultat": "5-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Elche", "Valladolid"],
+                        "resultat": "0-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Levante", "R. Sociedad"],
+                        "resultat": "0-0",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Villareal", "R. Madrid"],
+                        "resultat": "2-2",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Getafe", "Osasuna"],
+                        "resultat": "2-1",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Betis", "Valencia"],
+                        "resultat": "3-1",
+                        "estat": "finalitzat"
+                    },
+                    {
+                        "equip": ["Athletic", "Celta"],
+                        "resultat": "3-2",
+                        "estat": "finalitzat"
+                    }
+                ]
+            }
+        ]
+    }
+}
