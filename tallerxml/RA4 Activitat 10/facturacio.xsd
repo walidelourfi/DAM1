@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+    <xs:element name="raosocial">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nom" type="xs:string"/>
+                <xs:element name="cognom" type="xs:string" maxOccurs="2" minOccurs="0"/>
+                <xs:element name="adreca" type="xs:string"/>
+                <xs:element name="codipostal" type="xs:string"/>
+                <xs:element name="poblacio" type="xs:string"/>
+                <xs:element name="DNI" type="xs:string" minOccurs="0"/>
+                <xs:element name="NIF" type="xs:string" minOccurs="0"/>
+                <xs:element name="CIF" type="xs:string" minOccurs="0"/>
+                <xs:element name="domiciliat" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="tipus" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
     <xs:element name="facturacio">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="empresa">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="raosocial">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="nom" type="xs:string"/>
-                                        <xs:element name="adreca" type="xs:string"/>
-                                        <xs:element name="codipostal" type="xs:string"/>
-                                        <xs:element name="poblacio" type="xs:string"/>
-                                        <xs:element name="CIF" type="xs:string"/>
-                                    </xs:sequence>
-                                    <xs:attribute name="tipus" type="xs:string" use="required"/>
-                                </xs:complexType>
-                            </xs:element>
+                            <xs:element ref="raosocial"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
@@ -28,21 +34,7 @@
                             <xs:element name="client">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="raosocial">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="nom" type="xs:string"/>
-                                                    <xs:element name="cognom" type="xs:string" maxOccurs="2" minOccurs="0"/>
-                                                    <xs:element name="adreca" type="xs:string"/>
-                                                    <xs:element name="codipostal" type="xs:string"/>
-                                                    <xs:element name="poblacio" type="xs:string"/>
-                                                    <xs:element name="DNI" type="xs:string" minOccurs="0"/>
-                                                    <xs:element name="NIF" type="xs:string" minOccurs="0"/>
-                                                    <xs:element name="domiciliat" type="xs:string" minOccurs="0"/>
-                                                </xs:sequence>
-                                                <xs:attribute name="tipus" type="xs:string" use="required"/>
-                                            </xs:complexType>
-                                        </xs:element>
+                                        <xs:element ref="raosocial"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
@@ -88,5 +80,4 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-
 </xs:schema>
