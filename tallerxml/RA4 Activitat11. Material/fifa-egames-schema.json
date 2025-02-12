@@ -1,0 +1,67 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "Guanyador": {
+            "type": "string"
+        },
+        "Partit": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "nom-equip": {
+                        "type": "string"
+                    },
+                    "nick-players": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "gols": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "marcador": {
+                                    "type": "string"
+                                },
+                                "minut": {
+                                    "type": "string"
+                                },
+                                "jugador": {
+                                    "type": "string"
+                                },
+                                "penal": {
+                                    "type": "boolean"
+                                }
+                            },
+                            "required": ["marcador", "minut", "jugador"]
+                        }
+                    },
+                    "targetes": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "tipus": {
+                                    "type": "string"
+                                },
+                                "minut": {
+                                    "type": "string"
+                                },
+                                "jugador": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["tipus", "minut", "jugador"]
+                        }
+                    }
+                },
+                "required": ["nom-equip", "nick-players", "gols", "targetes"]
+            }
+        }
+    },
+    "required": ["Guanyador", "Partit"]
+}
